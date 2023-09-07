@@ -22,7 +22,7 @@ namespace laborator6exercitii
     */
     class Autoturism
     {
-        private string marca;
+        private readonly string marca;
         private string numarInmatriculare;
         private int capacitateCilindrica;
 

@@ -15,9 +15,9 @@ namespace laborator6exercitii
         afisati rezultatul*/
     class Dulap
     {
-        private int lungime ;
-        private int latime;
-        private int inaltime;
+        private readonly int lungime ;
+        private readonly int latime;
+        private readonly int inaltime;
 
     public Dulap(int lungime, int latime, int inaltime)
     {
